@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Example</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Wiek</th>
+        <th>Płeć</th>
+        <th>Opis</th>
+    </tr>
+    <tr>
+        <td>Jan</td>
+        <td>Kowalski</td>
+        <td>39</td>
+        <td>Mężczyzna</td>
+        <td></td>
+    </tr>
+</table>
+<form>
+    <label for="name"l>Imię</label>
+    <input id="name" type="text" value="Jan">
+    <label for="surname"l>Nazwizko</label>
+    <input id="surname" type="text" placeholder="Nazwisko">
+    <label for="age">Wiek</label>
+    <input id="age" type="number">
+    <label for="sex"></label>
+    <select id="sex">
+        <option>Kobieta</option>
+        <option selected>Mężczyzna</option>
+    </select>
+    <label for="description">Opis</label>
+    <textarea id="description"></textarea>
+
+       <button onclick="addPerson(event)">Dodaj</button>
+</form>
+<script src="table.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+.block{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ffe287;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: #ff9a47 solid 2px;
+    transition: top 1s, left 1s, box-shadow 1s;
+
+    /* Ukrywa  */
+    /* display: none; */
+
+    /* Ukrywa ale zostawia wolne miejsce */
+    /* visibility: hidden; */
+}
+.content{
+    text-align: center;
+    background-color: #ff611d;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    color: #0c0c0c;
+}
+.block,
+.content{
+    border-radius: 30px;
+}
+.content > p {
+    margin: auto;
+    }
+.block:hover {
+    position: relative;
+    top: -5px;
+    left: -5px;
+    box-shadow: darkgray 5px 5px 5px;
+    transition: top 1s, left 1s;
+}
+#test{
+    /*Domyślnie*/
+    /*position: static;*/
+
+    /*Przesunięcie wzlędem domyslnego położenia*/
+    /*position: relative;*/
+
+    /*Ułożenie wzgledem całego dokumentu*/
+    /*position: absolute;*/
+
+    /*Ułożenie względem okna przeglądarki*/
+    /*position: fixed;*/
+
+    /*"minimalna odległość od krawędzi przeglądarki*/
+    position: sticky;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    top: 100px;
+    left: 100px;
+}
+.clickable{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.clicked{
+
+}

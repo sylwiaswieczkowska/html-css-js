@@ -1,0 +1,34 @@
+.content{
+    font-family: "Arial", Arial;
+    font-style: normal;
+    text-decoration: none;
+}
+.block{
+    background-color: #34ac1c;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Verdana", Verdana, serif;
+    color: white;
+    margin: 20px;
+}
+.answer{
+    background-color: #39aa9e;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Verdana", Verdana, serif;
+    font-size: 16px;
+    color: white;
+
+}
+#question{
+    font-family: Arial, serif;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-style: inherit;
+    margin-left: 50%;
+}
